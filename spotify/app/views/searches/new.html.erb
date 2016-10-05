@@ -1,0 +1,18 @@
+<center>
+<%= form_tag searches_path do %>
+	<%= label_tag 'Search for your favorite artist' %><br>
+	<%= text_field_tag 'artist'%>
+	<%= submit_tag 'Search', {:id => 'btn-submit'} %>
+<%end%>
+</center>
+<div class="container-fluid"->
+	<div class="row">
+		<div class="col-lg-4 listArtist">
+			<div id="result"></div>
+		</div>
+		<div class="col-lg-4 listAlbum">
+			<div id="album"></div>
+		</div>
+		<div class="col-lg-4"></div>
+	</div>
+</div>

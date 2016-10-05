@@ -1,0 +1,23 @@
+.search {
+	padding: 10px;
+}
+
+.listArtist {
+	
+}
+
+.listAlbum {
+	text-align: center;
+	
+}
+
+.listTracks {
+	float:right;
+	text-align: right;
+	
+}
+
+.image {
+	width: 200px;
+	height: 200px;
+}
